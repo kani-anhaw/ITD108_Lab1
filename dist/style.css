@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #e2d0bc;
+ 
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: right;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline;
+    list-style: none;
+    margin: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: #c9a782;
+}
+
+.name{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.name h1{
+    font-size: 50px;
+    color: #100c08;
+    margin-bottom: 20px;
+}
+
+span{
+    color: #c58643;
+    font-weight: 50px;
+}
+
+.name p{
+   color:#1d160e;
+   line-height: 22px;
+}
+.name p i{
+    font-weight: bold;
+ }
+ 
+.name a{
+    background-color: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color:   #fff;
+    display: inline-block; 
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    align-items: center;
+}
+
+.images img{
+    height: 75%;
+    position: absolute;
+    left: 30%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition:0.75s;
+    margin-top: 15px;
+}
+
+.images:hover .me{
+    scale: 0.1;
+}
+
