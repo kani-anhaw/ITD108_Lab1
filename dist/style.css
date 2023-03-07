@@ -86,12 +86,12 @@ span{
     position: absolute;
     left: 30%;
     bottom: 0;
-    transform: translateX(-50%);
-    transition:0.75s;
+    /* transform: translateX(-50%); */
+    /* transition:0.75s; */
     margin-top: 15px;
 }
 
-.images:hover .me{
-    scale: 0.1;
-}
+/* .images:hover .me{
+    transform: scale(115%);
+} */
 
